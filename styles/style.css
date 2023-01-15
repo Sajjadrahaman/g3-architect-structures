@@ -1,0 +1,136 @@
+/* font style */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Work+Sans&display=swap');
+
+/*common styles or utilities*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    background: #FFFFFF;
+}
+
+.text-primary {
+    color: #FF900E;
+}
+
+.btn-primary {
+    width: 180px;
+    height: 64px;
+    background: #FF900E;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600px;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* header and navigation styles */
+
+.header {
+    background: rgba(255, 144, 14, 0.1);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 230px;
+}
+
+.nav-title {
+    font-weight: 700px;
+    font-size: 45px;
+    color: #131313;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 50px;
+
+}
+
+/* banner styles */
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 240px 50px 240px;
+}
+
+.banner-title {
+    font-weight: 700px;
+    font-size: 64px;
+    color: #131313;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.banner-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    text-align: center;
+    padding: 0px 50px;
+    margin-bottom: 30px;
+}
+
+.btn-banner {
+    text-align: center;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+    margin: 50px 0px;
+}
+
+/* architect-group style */
+.architect-group {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 70px;
+    margin: 50px 240px 50px 240px;
+}
+
+.architect {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+.architect img {
+    width: 342px;
+    height: 342px;
+    border-radius: 8px;
+}
+
+.architect-title {
+    font-weight: 500;
+    font-size: 45px;
+    color: #131313;
+    margin-bottom: 32px;
+}
+
+.architect-title span {
+    color: #727272;
+}
+
+.architect-info {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 32px;
+}
+
+/* future-goal styles here */
+
